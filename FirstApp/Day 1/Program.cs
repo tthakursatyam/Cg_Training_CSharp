@@ -36,19 +36,21 @@ class Program
         //          **** day 2     ****
         
         //  *** Do While loop ***
-        //Do.Whle();
+        // Do.Whle();
 
         //  ***Multiplication table of 21 to 30 ***
-        //Multiplication.Example2();
+        // Multiplication.Example2();
 
         //  ***Small Game using For Loop***
-        //Game.Example1();
+        // Game.Example1();
 
         //  ***   Loan Eligibility,Tax Calculation,Transactions     ***
-        //Finance.Manage();
+        // Finance.Manage();
 
-
+        //       *** Credit And Debit department features           ***
+        // Bank.Credit_Debit();
         Bank.Credit_Debit();
+        
     }
 
 }
