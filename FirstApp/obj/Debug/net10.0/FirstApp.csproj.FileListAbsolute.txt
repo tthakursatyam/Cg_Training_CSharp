@@ -12,3 +12,4 @@ D:\Study\Cg Training\FirstApp\obj\Debug\net10.0\refint\FirstApp.dll
 D:\Study\Cg Training\FirstApp\obj\Debug\net10.0\FirstApp.pdb
 D:\Study\Cg Training\FirstApp\obj\Debug\net10.0\FirstApp.genruntimeconfig.cache
 D:\Study\Cg Training\FirstApp\obj\Debug\net10.0\ref\FirstApp.dll
+d:\Study\Cg Training\FirstApp\obj\Debug\net10.0\FirstApp.sourcelink.json
