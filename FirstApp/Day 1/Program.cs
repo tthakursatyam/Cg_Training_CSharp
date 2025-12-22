@@ -124,10 +124,116 @@ class Program
 
         //ex.eg(4.3);
 
-        BankAccount bnk = new BankAccount(2049,10);
-        bnk.Deposit(99);
-        bnk.getBalance();
-        bnk.Withdraw(55);
-        bnk.getBalance();
-    }
+        // BankAccountt bnk = new BankAccountt(2049,10);
+        // bnk.Deposit(99);
+        // bnk.getBalance();
+        // bnk.Withdraw(55);
+        // bnk.getBalance();
+
+        //          **** Day 4 *****
+
+
+                    //Constructors
+        //Constr con = new Constr(5);
+        //constr2 con2 = new constr2();
+
+                    // basic example of inheritance  ****
+        // FD obj1 = new FD(100,10);
+        // obj1.display();
+        // obj1.bnk();
+
+        
+                    //Object Initializer  
+        //works only when default constructor is available
+        //It can only intialize private member
+        //Product p = new Product{Name = "Laptop",Price = 50000};
+
+        
+                //          **** Properties      ****
+        // person1 p1=new person1();
+        // p1.Age=20;
+        // Console.WriteLine(p1.Age);
+
+        // StudentPrf st = new StudentPrf();
+        // st.Age=22;
+        // st.Name="Satyam Singh";
+        // st.Marks=93;
+        // Console.WriteLine("Name:"+st.Name);
+        // Console.WriteLine("Age:"+st.Age);
+        // Console.WriteLine("Marks:"+st.Marks);
+
+    
+        //          ***Advance uses of properties*** 
+        // adv_prop obj1 = new adv_prop();
+        // obj1.Age=21;
+        // Console.WriteLine("Age:"+obj1.Age);
+        // obj1.StudentID=123;
+        // Console.WriteLine("StudentID:"+obj1.StudentID);
+        // Console.WriteLine(obj1.Marks);
+        // obj1.Password="sfhbsjids";
+        // obj1.Name="Satyam Singh";
+        // Console.WriteLine("Name:"+obj1.Name);
+
+                    //indexer
+        // Stucoll obj = new Stucoll();
+        // obj[0]="Satyam";
+        // Console.WriteLine(obj[0]);
+
+                //Indexer Overloading
+        // EmployeeDirectory ed = new EmployeeDirectory();
+        // ed[101] = "Ravi";
+        // Console.WriteLine(ed[101]);
+        // Console.WriteLine(ed["Satyam"]);
+
+
+                //LMS using indexer overloading
+
+        // LMS lms = new LMS();
+        // lms[0]="Physics";
+        // lms[1]="Maths";
+        // lms[13]="Chemistry";
+        // Console.WriteLine(lms[0]);
+        // Console.WriteLine(lms["Maths"]);
+        // Console.WriteLine(lms[16]);
+
+
+
+                //inheritance
+        // student st = new student(44,"Satyam");
+        // Console.WriteLine(st.name);
+        // Console.WriteLine(st.rollno);
+
+
+                // multi level inheritance
+        // Department depart = new Department("Btech",44,"Satyam");
+        // Console.WriteLine(depart.name);
+        // Console.WriteLine(depart.rollno);
+        // Console.WriteLine(depart.de);
+
+                //Interface
+        // Machine mh = new Machine();
+        // mh.Print();
+        // mh.Scan();
+
+
+                //Overriding
+        // Dog dg = new Dog();
+        // dg.Sound();
+        // Animal an =new Animal();
+        // an.Sound();
+
+        // Car cr = new Car();
+        // cr.Drive();
+
+
+
+                    //****insurance management system****
+        // Security sc = new Security("admin123");
+        // life_inusrance inp= new life_inusrance(1234,100);
+        // inp.premium=10000;
+        // inp.policyholdername="Satyam";
+        // inp.insurance_premium();
+        // inp.display();
+
+     }
 }
