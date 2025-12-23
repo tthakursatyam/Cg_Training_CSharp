@@ -1,4 +1,6 @@
 ﻿using System;
+using LI= LibrarySystem.Items;
+using LU= LibrarySystem.Users;
 class Program
 {
     static void Main()
@@ -188,6 +190,7 @@ class Program
 
                 //LMS using indexer overloading
 
+         
         // LMS lms = new LMS();
         // lms[0]="Physics";
         // lms[1]="Maths";
@@ -234,6 +237,53 @@ class Program
         // inp.policyholdername="Satyam";
         // inp.insurance_premium();
         // inp.display();
+
+
+
+
+                /////****       Day 5             *****///////
+        
+        // Report rp = new Report();
+        // rp.Print();
+        // rp.Scan();
+
+                        //*** LMS Project ***//
+
+                //Task 1
+        
+        LI.Book bk = new LI.Book();
+        bk.Title="Physics";
+        bk.Author="HC Verma";
+        bk.ItemID=1234;
+        bk.DaysLate=3;
+        bk.display();
+        bk.late_fee();
+
+                //Task 2
+        // LI.Book bk2 = new LI.Book();
+        // bk2.reserve();
+        // bk2.msg("My message");
+
+
+        //         //Task 4
+        // LI.IReservable task4 = new LI.Book();
+        // task4.reserve();
+        // task4.msg("Message");
+
+        // LI.INotifiable tsk4 = new LI.Book();
+        // tsk4.reserve();
+        // task4.msg("Message");
+
+
+        //         //Task 6
+        // LU.LibraryAnalytics.Display();
+
+        //         //Task 7
+        // LU.Member tsk7 = new LU.Member();
+        // tsk7.display();
+
+
+
 
      }
 }

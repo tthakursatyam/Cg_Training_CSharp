@@ -1,11 +1,11 @@
 using System;
-class BankAccount
+class BankAccountt
 {
     private int AccountNo;
     private double Balance;
     public static string BankName="State Bank Of India";
 
-    public BankAccount(int Ac,int Bal)
+    public BankAccountt(int Ac,int Bal)
     {
         AccountNo=Ac;
         Balance=Bal;
