@@ -19,6 +19,7 @@ class Generic2<T> where T: class
 class animal
 {
     public string name;
+    
 }
 class programm
 {

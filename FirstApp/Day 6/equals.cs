@@ -11,5 +11,6 @@ class Portfolio
     public override int GetHashCode()
     {
         return Name.GetHashCode();
+        
     }
 }

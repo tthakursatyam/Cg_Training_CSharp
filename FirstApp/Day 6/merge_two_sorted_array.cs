@@ -19,6 +19,7 @@ class merge
         for(int i=0;i<ls.Count();i++)
         {
             Console.WriteLine(ls[i]);
+        
         }
     }
 }
