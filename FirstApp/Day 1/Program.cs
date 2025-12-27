@@ -251,13 +251,13 @@ class Program
 
                 //Task 1
         
-        LI.Book bk = new LI.Book();
-        bk.Title="Physics";
-        bk.Author="HC Verma";
-        bk.ItemID=1234;
-        bk.DaysLate=3;
-        bk.display();
-        bk.late_fee();
+        // LI.Book bk = new LI.Book();
+        // bk.Title="Physics";
+        // bk.Author="HC Verma";
+        // bk.ItemID=1234;
+        // bk.DaysLate=3;
+        // bk.display();
+        // bk.late_fee();
 
                 //Task 2
         // LI.Book bk2 = new LI.Book();
@@ -284,6 +284,99 @@ class Program
 
 
 
+                        //****          Day 6           //
+
+        // StockPrice original = new StockPrice{ 
+        //         Stock_Symbol="TCS",
+        //         Price=155.5
+        //         };
+
+        // StockPrice copied = original;
+        // copied.Price=1555;
+        // Console.WriteLine("Original: "+original.Stock_Symbol+original.Price);
+        // Console.WriteLine("Copied: "+copied.Stock_Symbol+copied.Price);
+
+        // Trade origin = new Trade
+        // {
+        //         Trade_ID=123,
+        //         Stock_Symbol="TCS",
+        //         Quantity = 200
+        // };
+        // Trade copy = origin;
+        // Trade copy1 = new Trade();
+        // copy1.Quantity=50;
+        // copy.Quantity=100;
+        
+        // Console.WriteLine($"Origi: {origin.Stock_Symbol} {origin.Quantity} {origin.Trade_ID}");
+        // Console.WriteLine($"Copy: {copy.Stock_Symbol} {copy.Quantity} {copy.Trade_ID}");
+
+
+
+        // Portfolio p1 = new Portfolio { Name = "Growth" };
+        // Portfolio p2 = new Portfolio { Name = "Growth" };
+
+        // Console.WriteLine(p1.Equals(p2));
+        // Console.WriteLine(p1==p2);
+
+        // Console.WriteLine(p1.GetHashCode());
+        // Console.WriteLine(p2.GetHashCode());
+
+        
+        // day6.Trade t = new day6.EquityTrade();
+        // Console.WriteLine(t.GetType());
+
+
+        // Generic<int> gn = new Generic<int>();
+        // gn.SetValue(23);
+        // Console.WriteLine("Value: "+gn.GetValue());
+
+        // programm.Mainn();
+
+
+        // Calculate cl = new Calculate();
+        // Console.WriteLine(cl.add(4,5));
+        // double db = cl.add(10.4,89.9);
+        // Console.WriteLine(db);
+
+        // Calculate c2 = new Calculate();
+        // Console.WriteLine(c2.PrintData("egvfsdf"));
+
+        // Person p1 = new Person();
+        // p1.name="Satyam";
+        // p1.age=22;
+
+        // Console.WriteLine("Name: "+p1.name);
+        // Console.WriteLine("Age: "+p1.age);
+        
+        // Person p2 = new Person { name = "Satyam Singh",age=22};
+        
+                //*** Boxing and Unboxing ***
+
+        // int n=10;
+        // object ob=n;
+        // Console.WriteLine("Boxing: "+ob.GetType());
+        // int n1 = (int) ob;
+        // Console.WriteLine("UnBoxing: "+n1.GetType());
+
+        // object obj = p2;
+        // Console.WriteLine("Boxing: "+obj);
+
+        // Person p3 = (Person) obj;
+        // Console.WriteLine("UnBoxing: "+p3);   
+
+        // arr11 ar = new arr11(); 
+        // ar.eg();
+
+        // hs obj = new hs();
+        // obj.hset();
+
+        // freq obj = new freq();
+        // obj.func();
+
+        // merge mr = new merge();
+        // mr.func();
+
+        Console.WriteLine(task2.GenerateKey("SatyamSingh"));
 
      }
 }
