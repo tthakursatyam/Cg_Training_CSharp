@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 using LI= LibrarySystem.Items;
 using LU= LibrarySystem.Users;
 class Program
@@ -376,7 +377,48 @@ class Program
         // merge mr = new merge();
         // mr.func();
 
-        Console.WriteLine(task2.GenerateKey("SatyamSingh"));
+        //Console.WriteLine(task2.GenerateKey("RamanGoyal"));
 
+        // multid_array obj1 = new multid_array();
+        // obj1.func();
+
+                        //      ***Day 9***     //
+        // exc_hand.func();
+
+        // Console.WriteLine(Environment.NewLine);
+
+        // BankAcc obj1 = new BankAcc();
+        // obj1.Withdraw(1200);
+        // obj1.Withdraw(7000);
+        // obj1.Withdraw(3800);
+        // obj1.Withdraw(120);
+
+        
+        // exc_hand obj = new exc_hand();
+        // obj.func2();
+        
+
+        // BankAcco obj1 = new BankAcco(5000);
+        // obj1.Withdraw(-97878);
+
+
+
+                //Task Day 9//
+        // BankingSystem.BankAccount bnk = new BankingSystem.BankAccount("2049",5000);
+        // Console.WriteLine("Balance:"+bnk.balance);
+        // bnk.withdraw(9000);
+
+
+
+
+
+
+                        //      ***Day 10***    //
+        //Reg.func1();
+        //Task1.func1();
+
+
+        LogProcessing.LogParser obj = new LogProcessing.LogParser();
+        obj.func1();
      }
 }

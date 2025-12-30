@@ -1,5 +1,5 @@
 using System;
-class example
+class Example
 {
     public static void ex()
     {
