@@ -418,7 +418,33 @@ class Program
         //Task1.func1();
 
 
-        LogProcessing.LogParser obj = new LogProcessing.LogParser();
-        obj.func1();
+        // LogProcessing.LogParser obj = new LogProcessing.LogParser();
+        // obj.func1();
+
+
+                        //      ***Day 11***    //
+        //garbage.func1();
+
+        //tuple.func1();
+        //tuple.func2();
+        //tuple.func3();
+
+
+        //linq.func1();
+        //linq.func2();
+        //linq.func3();
+
+        // using (ResourceHandler handler = new ResourceHandler())
+        // {
+        //         Console.WriteLine("Using Resource");
+        // }
+
+
+        //Dispo.func2();
+
+
+                        //      ***Day 12***    //
+        //D12_string.func();
+        D12_string.func2();
      }
 }
