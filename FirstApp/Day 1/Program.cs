@@ -445,6 +445,77 @@ class Program
 
                         //      ***Day 12***    //
         //D12_string.func();
-        D12_string.func2();
+        //D12_string.func2();
+
+
+                        //      ***Day 13***    //
+
+        // PaymentService  service = new PaymentService();
+        // PaymentDelegates  payment = service.ProcessPayment;
+
+        // decimal amount=5000;
+        // if(amount.isValidPayment())
+        // {
+        //         payment(amount);
+        // }
+        // else
+        // {
+        //         Console.WriteLine("Payment is Invalid!");
+        // }
+        // payment+=service.RTGS;
+
+        // payment(5000);
+
+
+        // Action<string> logActivity= message => Console.WriteLine("Log activity: "+message);
+        // logActivity("User logged in at 10:44");
+
+        // Func<decimal,decimal,decimal> CalculateDiscount = (price,discount) => price*(discount/100);
+        // Console.WriteLine(CalculateDiscount(1000,10));
+        // Comparison<string> sortDescending = (a,b) => a.CompareTo(b);
+        // Console.WriteLine(sortDescending("hello","hello"));
+
+        // Predicate<int> Elgibility = age => age>=18 ;
+        // Console.WriteLine(Elgibility(9));
+
+        // Button btn = new Button();
+
+        // btn.Clicked += () => Console.WriteLine("Button was clicked");
+        // btn.Back += () => Console.WriteLine("Back to previous page");
+
+        // btn.Click();
+
+        // // Objects Initialization
+        // MotionSensor livingRoomSensor = new MotionSensor();
+        // AlarmSystem siren = new AlarmSystem();
+        // PoliceNotifier police = new PoliceNotifier();
+
+        // // 2. INSTANTIATION & MULTICASTING
+        // // We "Subscribe" different methods to the sensor's delegate
+        // SecurityAction panicSequence = siren.SoundSiren; // Assignment of methods
+        // panicSequence += police.CallDispatch;
+
+        // // Linking the sequence to the sensor
+        // livingRoomSensor.OnEmergency = panicSequence;
+        // // class_object.delegate_instance = delegate_instance_multicast
+
+        // // Simulation
+        // livingRoomSensor.DetectIntruder("Main Lobby");
+
+
+                        //Day 13 task//
+        EcommerceAssessment.Program_delegates.Main_delegates();
+
+
+                        //Day 14//
+        //Day14_file.func1();
+        //Day14_file.func2();
+        //Day14_file.func3();
+        //Day14_file.func4();
+
+        //Day14_File_info.func1();
+
+        //Day14_Directory.func1();
+        //Day14_Directory.func2();
      }
 }

@@ -36,7 +36,15 @@ class D12_string
         Console.WriteLine(sb3.Equals(sb2));
 
         Console.WriteLine(object.ReferenceEquals(sb1,sb2));
+        Console.WriteLine(sb1==sb2);
         Console.WriteLine(object.ReferenceEquals(sb3,sb2));
+        Console.WriteLine(sb2==sb3);
         Console.WriteLine(object.ReferenceEquals(sb1,sb3));
+        Console.WriteLine(sb1==sb3);
+
+        string str1="hello";
+        string str2="hello";
+        Console.WriteLine(str1==str2);
+        Console.WriteLine(str1.Equals(str2));
     }
 }
