@@ -1,0 +1,15 @@
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\Dialing_Code.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\Dialing_Code.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\Dialing_Code.AssemblyInfo.cs
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\Dialing_Code.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\Dialing_Code.sourcelink.json
+D:\Study\Cg Training\Projects\Dialing_Code\bin\Debug\net10.0\Dialing_Code.exe
+D:\Study\Cg Training\Projects\Dialing_Code\bin\Debug\net10.0\Dialing_Code.deps.json
+D:\Study\Cg Training\Projects\Dialing_Code\bin\Debug\net10.0\Dialing_Code.runtimeconfig.json
+D:\Study\Cg Training\Projects\Dialing_Code\bin\Debug\net10.0\Dialing_Code.dll
+D:\Study\Cg Training\Projects\Dialing_Code\bin\Debug\net10.0\Dialing_Code.pdb
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\Dialing_Code.dll
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\refint\Dialing_Code.dll
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\Dialing_Code.pdb
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\Dialing_Code.genruntimeconfig.cache
+D:\Study\Cg Training\Projects\Dialing_Code\obj\Debug\net10.0\ref\Dialing_Code.dll

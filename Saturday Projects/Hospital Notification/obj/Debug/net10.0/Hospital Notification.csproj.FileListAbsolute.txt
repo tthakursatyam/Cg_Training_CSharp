@@ -1,0 +1,5 @@
+D:\Study\Cg Training\Projects\Hospital Notification\obj\Debug\net10.0\Hospital Notification.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Projects\Hospital Notification\obj\Debug\net10.0\Hospital Notification.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Projects\Hospital Notification\obj\Debug\net10.0\Hospital Notification.AssemblyInfo.cs
+D:\Study\Cg Training\Projects\Hospital Notification\obj\Debug\net10.0\Hospital Notification.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Projects\Hospital Notification\obj\Debug\net10.0\Hospital Notification.sourcelink.json
