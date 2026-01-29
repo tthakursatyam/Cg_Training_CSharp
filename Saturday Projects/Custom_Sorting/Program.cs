@@ -39,6 +39,7 @@ class Program
             Console.WriteLine(s.Name+" "+s.Marks+" "+s.Age);
         }
         Console.WriteLine();
+        Console.WriteLine();
         
         List<Student> student1 = new List<Student>
         {
