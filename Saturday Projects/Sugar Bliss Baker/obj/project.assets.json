@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\Cg Training\\Projects\\Sugar Bliss baker\\Sugar Bliss baker.csproj",
+      "projectUniqueName": "D:\\Study\\Cg Training\\Saturday Projects\\Sugar Bliss Baker\\Sugar Bliss baker.csproj",
       "projectName": "Sugar Bliss baker",
-      "projectPath": "D:\\Study\\Cg Training\\Projects\\Sugar Bliss baker\\Sugar Bliss baker.csproj",
+      "projectPath": "D:\\Study\\Cg Training\\Saturday Projects\\Sugar Bliss Baker\\Sugar Bliss baker.csproj",
       "packagesPath": "C:\\Users\\satya\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\Cg Training\\Projects\\Sugar Bliss baker\\obj\\",
+      "outputPath": "D:\\Study\\Cg Training\\Saturday Projects\\Sugar Bliss Baker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\satya\\AppData\\Roaming\\NuGet\\NuGet.Config",

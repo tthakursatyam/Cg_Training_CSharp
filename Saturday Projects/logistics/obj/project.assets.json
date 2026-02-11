@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\Cg Training\\Projects\\logistics\\logistics.csproj",
+      "projectUniqueName": "D:\\Study\\Cg Training\\Saturday Projects\\logistics\\logistics.csproj",
       "projectName": "logistics",
-      "projectPath": "D:\\Study\\Cg Training\\Projects\\logistics\\logistics.csproj",
+      "projectPath": "D:\\Study\\Cg Training\\Saturday Projects\\logistics\\logistics.csproj",
       "packagesPath": "C:\\Users\\satya\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\Cg Training\\Projects\\logistics\\obj\\",
+      "outputPath": "D:\\Study\\Cg Training\\Saturday Projects\\logistics\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\satya\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,15 @@
+D:\Study\Cg Training\Saturday Projects\logistics\bin\Debug\net10.0\logistics.exe
+D:\Study\Cg Training\Saturday Projects\logistics\bin\Debug\net10.0\logistics.deps.json
+D:\Study\Cg Training\Saturday Projects\logistics\bin\Debug\net10.0\logistics.runtimeconfig.json
+D:\Study\Cg Training\Saturday Projects\logistics\bin\Debug\net10.0\logistics.dll
+D:\Study\Cg Training\Saturday Projects\logistics\bin\Debug\net10.0\logistics.pdb
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\logistics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\logistics.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\logistics.AssemblyInfo.cs
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\logistics.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\logistics.sourcelink.json
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\logistics.dll
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\refint\logistics.dll
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\logistics.pdb
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\logistics.genruntimeconfig.cache
+D:\Study\Cg Training\Saturday Projects\logistics\obj\Debug\net10.0\ref\logistics.dll

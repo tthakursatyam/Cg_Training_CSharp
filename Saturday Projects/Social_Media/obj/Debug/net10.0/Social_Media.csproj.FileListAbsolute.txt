@@ -1,0 +1,15 @@
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\Social_Media.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\Social_Media.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\Social_Media.AssemblyInfo.cs
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\Social_Media.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\Social_Media.sourcelink.json
+D:\Study\Cg Training\Saturday Projects\Social_Media\bin\Debug\net10.0\Social_Media.exe
+D:\Study\Cg Training\Saturday Projects\Social_Media\bin\Debug\net10.0\Social_Media.deps.json
+D:\Study\Cg Training\Saturday Projects\Social_Media\bin\Debug\net10.0\Social_Media.runtimeconfig.json
+D:\Study\Cg Training\Saturday Projects\Social_Media\bin\Debug\net10.0\Social_Media.dll
+D:\Study\Cg Training\Saturday Projects\Social_Media\bin\Debug\net10.0\Social_Media.pdb
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\Social_Media.dll
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\refint\Social_Media.dll
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\Social_Media.pdb
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\Social_Media.genruntimeconfig.cache
+D:\Study\Cg Training\Saturday Projects\Social_Media\obj\Debug\net10.0\ref\Social_Media.dll

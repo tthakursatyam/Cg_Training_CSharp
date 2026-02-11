@@ -1,0 +1,12 @@
+D:\Study\Cg Training\Saturday Projects\DLL\bin\Debug\net10.0\DLL.deps.json
+D:\Study\Cg Training\Saturday Projects\DLL\bin\Debug\net10.0\DLL.dll
+D:\Study\Cg Training\Saturday Projects\DLL\bin\Debug\net10.0\DLL.pdb
+D:\Study\Cg Training\Saturday Projects\DLL\obj\Debug\net10.0\DLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Saturday Projects\DLL\obj\Debug\net10.0\DLL.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Saturday Projects\DLL\obj\Debug\net10.0\DLL.AssemblyInfo.cs
+D:\Study\Cg Training\Saturday Projects\DLL\obj\Debug\net10.0\DLL.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Saturday Projects\DLL\obj\Debug\net10.0\DLL.sourcelink.json
+D:\Study\Cg Training\Saturday Projects\DLL\obj\Debug\net10.0\DLL.dll
+D:\Study\Cg Training\Saturday Projects\DLL\obj\Debug\net10.0\refint\DLL.dll
+D:\Study\Cg Training\Saturday Projects\DLL\obj\Debug\net10.0\DLL.pdb
+D:\Study\Cg Training\Saturday Projects\DLL\obj\Debug\net10.0\ref\DLL.dll

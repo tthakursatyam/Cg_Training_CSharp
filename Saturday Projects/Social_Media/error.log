@@ -1,0 +1,4 @@
+16-01-2026 12:35:00 | System.ArgumentException | Invalid email format
+16-01-2026 12:38:16 | System.ArgumentException | Invalid email format
+16-01-2026 14:11:14 | System.NullReferenceException | Object reference not set to an instance of an object.
+16-01-2026 14:11:24 | System.NullReferenceException | Object reference not set to an instance of an object.

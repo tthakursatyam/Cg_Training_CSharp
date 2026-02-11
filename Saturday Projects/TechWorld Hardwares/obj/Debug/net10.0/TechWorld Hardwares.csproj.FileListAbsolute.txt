@@ -1,0 +1,15 @@
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\TechWorld Hardwares.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\TechWorld Hardwares.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\TechWorld Hardwares.AssemblyInfo.cs
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\TechWorld Hardwares.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\TechWorld Hardwares.sourcelink.json
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\bin\Debug\net10.0\TechWorld Hardwares.exe
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\bin\Debug\net10.0\TechWorld Hardwares.deps.json
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\bin\Debug\net10.0\TechWorld Hardwares.runtimeconfig.json
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\bin\Debug\net10.0\TechWorld Hardwares.dll
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\bin\Debug\net10.0\TechWorld Hardwares.pdb
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\TechWorld Hardwares.dll
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\refint\TechWorld Hardwares.dll
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\TechWorld Hardwares.pdb
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\TechWorld Hardwares.genruntimeconfig.cache
+D:\Study\Cg Training\Saturday Projects\TechWorld Hardwares\obj\Debug\net10.0\ref\TechWorld Hardwares.dll

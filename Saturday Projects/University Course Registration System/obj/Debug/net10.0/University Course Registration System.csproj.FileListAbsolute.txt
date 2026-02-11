@@ -1,0 +1,15 @@
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\bin\Debug\net10.0\University Course Registration System.exe
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\bin\Debug\net10.0\University Course Registration System.deps.json
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\bin\Debug\net10.0\University Course Registration System.runtimeconfig.json
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\bin\Debug\net10.0\University Course Registration System.dll
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\bin\Debug\net10.0\University Course Registration System.pdb
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\University Course Registration System.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\University Course Registration System.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\University Course Registration System.AssemblyInfo.cs
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\University Course Registration System.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\University Course Registration System.sourcelink.json
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\University Course Registration System.dll
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\refint\University Course Registration System.dll
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\University Course Registration System.pdb
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\University Course Registration System.genruntimeconfig.cache
+D:\Study\Cg Training\Saturday Projects\University Course Registration System\obj\Debug\net10.0\ref\University Course Registration System.dll

@@ -1,0 +1,15 @@
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\Consuming.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\Consuming.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\Consuming.AssemblyInfo.cs
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\Consuming.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\Consuming.sourcelink.json
+D:\Study\Cg Training\Saturday Projects\Consuming\bin\Debug\net10.0\Consuming.exe
+D:\Study\Cg Training\Saturday Projects\Consuming\bin\Debug\net10.0\Consuming.deps.json
+D:\Study\Cg Training\Saturday Projects\Consuming\bin\Debug\net10.0\Consuming.runtimeconfig.json
+D:\Study\Cg Training\Saturday Projects\Consuming\bin\Debug\net10.0\Consuming.dll
+D:\Study\Cg Training\Saturday Projects\Consuming\bin\Debug\net10.0\Consuming.pdb
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\Consuming.dll
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\refint\Consuming.dll
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\Consuming.pdb
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\Consuming.genruntimeconfig.cache
+D:\Study\Cg Training\Saturday Projects\Consuming\obj\Debug\net10.0\ref\Consuming.dll
