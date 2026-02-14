@@ -1,0 +1,15 @@
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\Book Store Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\Book Store Application.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\Book Store Application.AssemblyInfo.cs
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\Book Store Application.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\Book Store Application.sourcelink.json
+D:\Study\Cg Training\Saturday Projects\Book Store Application\bin\Debug\net10.0\Book Store Application.exe
+D:\Study\Cg Training\Saturday Projects\Book Store Application\bin\Debug\net10.0\Book Store Application.deps.json
+D:\Study\Cg Training\Saturday Projects\Book Store Application\bin\Debug\net10.0\Book Store Application.runtimeconfig.json
+D:\Study\Cg Training\Saturday Projects\Book Store Application\bin\Debug\net10.0\Book Store Application.dll
+D:\Study\Cg Training\Saturday Projects\Book Store Application\bin\Debug\net10.0\Book Store Application.pdb
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\Book Store Application.dll
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\refint\Book Store Application.dll
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\Book Store Application.pdb
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\Book Store Application.genruntimeconfig.cache
+D:\Study\Cg Training\Saturday Projects\Book Store Application\obj\Debug\net10.0\ref\Book Store Application.dll
