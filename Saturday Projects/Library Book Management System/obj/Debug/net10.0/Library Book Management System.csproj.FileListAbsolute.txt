@@ -1,0 +1,15 @@
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\Library Book Management System.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\Library Book Management System.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\Library Book Management System.AssemblyInfo.cs
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\Library Book Management System.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\Library Book Management System.sourcelink.json
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\bin\Debug\net10.0\Library Book Management System.exe
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\bin\Debug\net10.0\Library Book Management System.deps.json
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\bin\Debug\net10.0\Library Book Management System.runtimeconfig.json
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\bin\Debug\net10.0\Library Book Management System.dll
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\bin\Debug\net10.0\Library Book Management System.pdb
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\Library Book Management System.dll
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\refint\Library Book Management System.dll
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\Library Book Management System.pdb
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\Library Book Management System.genruntimeconfig.cache
+D:\Study\Cg Training\Saturday Projects\Library Book Management System\obj\Debug\net10.0\ref\Library Book Management System.dll
