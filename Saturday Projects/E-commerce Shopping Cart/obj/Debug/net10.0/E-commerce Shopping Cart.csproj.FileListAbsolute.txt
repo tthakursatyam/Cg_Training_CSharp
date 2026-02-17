@@ -1,0 +1,15 @@
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\E-commerce Shopping Cart.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\E-commerce Shopping Cart.AssemblyInfoInputs.cache
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\E-commerce Shopping Cart.AssemblyInfo.cs
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\E-commerce Shopping Cart.csproj.CoreCompileInputs.cache
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\E-commerce Shopping Cart.sourcelink.json
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\bin\Debug\net10.0\E-commerce Shopping Cart.exe
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\bin\Debug\net10.0\E-commerce Shopping Cart.deps.json
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\bin\Debug\net10.0\E-commerce Shopping Cart.runtimeconfig.json
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\bin\Debug\net10.0\E-commerce Shopping Cart.dll
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\bin\Debug\net10.0\E-commerce Shopping Cart.pdb
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\E-commerce Shopping Cart.dll
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\refint\E-commerce Shopping Cart.dll
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\E-commerce Shopping Cart.pdb
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\E-commerce Shopping Cart.genruntimeconfig.cache
+D:\Study\Cg Training\Saturday Projects\E-commerce Shopping Cart\obj\Debug\net10.0\ref\E-commerce Shopping Cart.dll
