@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|d:\\study\\cg training\\mvc\\library_management_system\\library_management_system\\repository\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\repository\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|d:\\study\\cg training\\mvc\\library_management_system\\library_management_system\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|d:\\study\\cg training\\mvc\\library_management_system\\library_management_system\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|d:\\study\\cg training\\mvc\\library_management_system\\library_management_system\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|d:\\study\\cg training\\mvc\\library_management_system\\library_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|d:\\study\\cg training\\mvc\\library_management_system\\library_management_system\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|d:\\study\\cg training\\mvc\\library_management_system\\library_management_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|d:\\study\\cg training\\mvc\\library_management_system\\library_management_system\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD899BE-BBCF-40BC-8F29-62F2CBC2441F}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\appsettings.json",
+              "RelativeDocumentMoniker": "Library_Management_System\\appsettings.json",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\appsettings.json",
+              "RelativeToolTip": "Library_Management_System\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T06:40:41.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Library_Management_System\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Library_Management_System\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T06:37:57.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqlBookRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Repository\\SqlBookRepository.cs",
+              "RelativeDocumentMoniker": "Library_Management_System\\Repository\\SqlBookRepository.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Repository\\SqlBookRepository.cs",
+              "RelativeToolTip": "Library_Management_System\\Repository\\SqlBookRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T06:36:38.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Program.cs",
+              "RelativeDocumentMoniker": "Library_Management_System\\Program.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Program.cs",
+              "RelativeToolTip": "Library_Management_System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T06:24:42.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Library_Management_System\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Library_Management_System\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T06:19:46.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Library_Management_System\\Repository\\BookRepository.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "Library_Management_System\\Repository\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T06:10:52.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Repository\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Library_Management_System\\Repository\\IBookRepository.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Repository\\IBookRepository.cs",
+              "RelativeToolTip": "Library_Management_System\\Repository\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T06:09:11.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Library_Management_System\\Models\\Book.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\Library_Management_System\\Library_Management_System\\Models\\Book.cs",
+              "RelativeToolTip": "Library_Management_System\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T06:07:46.277Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

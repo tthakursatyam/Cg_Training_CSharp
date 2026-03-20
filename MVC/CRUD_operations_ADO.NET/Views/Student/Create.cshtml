@@ -1,0 +1,111 @@
+﻿@model CRUD_operations_ADO.NET.Models.StudentInfo
+
+@{
+    ViewData["Title"] = "Create Student";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Student</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(135deg,#74ebd5,#ACB6E5);
+            padding: 40px;
+        }
+
+        .container {
+            width: 500px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0 15px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .validation-summary-errors ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .validation-summary-errors li {
+            color: red;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>➕ Add New Student</h2>
+
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+
+            <label>Name</label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+
+            <label>Age</label>
+            <input asp-for="Age" type="number" />
+            <span asp-validation-for="Age"></span>
+
+            <label>City</label>
+            <input asp-for="City" />
+            <span asp-validation-for="City"></span>
+
+            <label>Father Name</label>
+            <input asp-for="Fathername" />
+            <span asp-validation-for="Fathername"></span>
+
+            <label>Email</label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+
+            <label>Mobile Number</label>
+            <input asp-for="Number" />
+            <span asp-validation-for="Number"></span>
+
+            <label>Student Image</label>
+            <input type="file" name="ImageFile" accept="image/*" />
+
+            <button type="submit">Save Student</button>
+
+        </form>
+
+        <div style="text-align:center;margin-top:10px;">
+            <a asp-action="GetStudentData">⬅ Back to List</a>
+        </div>
+
+    </div>
+
+    @section Scripts{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+</body>
+</html>

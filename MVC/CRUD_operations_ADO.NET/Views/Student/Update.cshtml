@@ -1,0 +1,138 @@
+﻿@model CRUD_operations_ADO.NET.Models.StudentInfo
+
+@{
+    ViewData["Title"] = "Edit Student";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Student</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg,#667eea,#764ba2);
+            padding: 40px;
+        }
+
+        .container {
+            width: 550px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 8px 25px rgba(0,0,0,0.3);
+        }
+
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #444;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .update-btn {
+            background-color: #28a745;
+            color: white;
+        }
+
+            .update-btn:hover {
+                background-color: #218838;
+            }
+
+        .back-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+            .back-link a {
+                text-decoration: none;
+                color: #667eea;
+                font-weight: bold;
+            }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>✏️ Edit Student Details</h2>
+
+        <form asp-action="UpdateStu" method="post" enctype="multipart/form-data">
+            
+            <label>ID</label>
+            <input type="text" asp-for="Id" class="form-control" />
+
+            <label>Name</label>
+            <input asp-for="Name" />
+
+            <label>Age</label>
+            <input asp-for="Age" type="number" />
+
+            <label>City</label>
+            <input asp-for="City" />
+
+            <label>Father Name</label>
+            <input asp-for="Fathername" />
+
+            <label>Email</label>
+            <input asp-for="Email" />
+
+            <label>Mobile Number</label>
+            <input asp-for="Number" />
+
+            <label>Current Image</label><br />
+
+            @if (Model != null && !string.IsNullOrEmpty(Model.ImagePath))
+            {
+                <img src="@Model.ImagePath" width="120" />
+            }
+
+            <br /><br />
+
+            <label>Update Image</label>
+            <input type="file" name="ImageFile" />
+
+            <button type="submit" class="btn update-btn">
+                ✅ Update Student
+            </button>
+
+        </form>
+
+        <div class="back-link">
+            <a asp-action="GetStudentData">⬅ Back to Student List</a>
+        </div>
+
+    </div>
+
+    @section Scripts{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+</body>
+</html>

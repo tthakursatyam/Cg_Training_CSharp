@@ -1,0 +1,109 @@
+﻿@model IEnumerable<CRUD_operations_ADO.NET.Models.StudentInfo>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students List</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 6px 18px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+
+        th {
+            background: #4CAF50;
+            color: white;
+            padding: 12px;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #d6f5d6;
+        }
+
+        th, td {
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>🎓 Students List</h2>
+
+        <a asp-action="GeneratePdf" class="btn btn-danger">
+            📄 Download PDF
+        </a>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Father Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Email</th>
+                <th>Mobile Number</th>
+                <th>Image</th>
+            </tr>
+
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.Id</td>
+                    <td>@s.Name</td>
+                    <td>@s.Fathername</td>
+                    <td>@s.Age</td>
+                    <td>@s.City</td>
+                    <td>@s.Email</td>
+                    <td>@s.Number</td>
+                    <td><img src="@s.ImagePath" width="80" height="80" /></td>
+                    <td>
+                        <a asp-action="GenerateIdCard"
+                           asp-route-id="@s.Id"
+                           class="btn btn-primary">
+                            🪪 ID Card
+                        </a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+    </div>
+
+</body>
+</html>

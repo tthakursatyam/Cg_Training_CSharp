@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="CRUD_operations_ADO.NET/CRUD_operations_ADO.NET.csproj" Id="12ffa785-7d87-4cc3-b088-1b087bac9a01" />
+  <Project Path="DraftApp/DraftApp.csproj" Id="e88cd040-fd53-40eb-a856-d9ea91dfe9cd" />
   <Project Path="MVC001/MVC001.csproj" />
   <Project Path="MVC_02/MVC_02.csproj" Id="70c99f79-5fd7-477a-b17e-c466d1d9b233" />
   <Project Path="MVC_With_ADO.NET/MVC_With_ADO.NET.csproj" />

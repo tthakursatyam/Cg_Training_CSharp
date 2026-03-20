@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|d:\\study\\cg training\\mvc\\mvclistrepo\\mvclistrepo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|d:\\study\\cg training\\mvc\\mvclistrepo\\mvclistrepo\\repository\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\repository\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|d:\\study\\cg training\\mvc\\mvclistrepo\\mvclistrepo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|d:\\study\\cg training\\mvc\\mvclistrepo\\mvclistrepo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|d:\\study\\cg training\\mvc\\mvclistrepo\\mvclistrepo\\migrations\\20260307051611_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\migrations\\20260307051611_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|d:\\study\\cg training\\mvc\\mvclistrepo\\mvclistrepo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|d:\\study\\cg training\\mvc\\mvclistrepo\\mvclistrepo\\repository\\liststudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\repository\\liststudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|d:\\study\\cg training\\mvc\\mvclistrepo\\mvclistrepo\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|d:\\study\\cg training\\mvc\\mvclistrepo\\mvclistrepo\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFA61E15-FC94-2AEF-999F-87C46150EC39}|MVCListRepo\\MVCListRepo.csproj|solutionrelative:mvclistrepo\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260307051611_initial.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Migrations\\20260307051611_initial.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Migrations\\20260307051611_initial.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Migrations\\20260307051611_initial.cs",
+              "RelativeToolTip": "MVCListRepo\\Migrations\\20260307051611_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T05:16:12.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCListRepo\\appsettings.json",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\appsettings.json",
+              "RelativeToolTip": "MVCListRepo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T05:04:24.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MVCListRepo\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:56:49.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Program.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Program.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Program.cs",
+              "RelativeToolTip": "MVCListRepo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:35:02.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "MVCListRepo\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:32:49.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLStudentRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Repository\\SQLStudentRepository.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Repository\\SQLStudentRepository.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Repository\\SQLStudentRepository.cs",
+              "RelativeToolTip": "MVCListRepo\\Repository\\SQLStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:27:32.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListStudentRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Repository\\ListStudentRepository.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Repository\\ListStudentRepository.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Repository\\ListStudentRepository.cs",
+              "RelativeToolTip": "MVCListRepo\\Repository\\ListStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:26:20.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Repository\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Repository\\IStudentRepository.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Repository\\IStudentRepository.cs",
+              "RelativeToolTip": "MVCListRepo\\Repository\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:25:58.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Students.cs",
+              "DocumentMoniker": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Models\\Students.cs",
+              "RelativeDocumentMoniker": "MVCListRepo\\Models\\Students.cs",
+              "ToolTip": "D:\\Study\\Cg Training\\MVC\\MVCListRepo\\MVCListRepo\\Models\\Students.cs",
+              "RelativeToolTip": "MVCListRepo\\Models\\Students.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:24:02.91Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
