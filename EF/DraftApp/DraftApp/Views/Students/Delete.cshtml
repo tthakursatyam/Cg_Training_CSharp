@@ -1,0 +1,190 @@
+﻿@model DraftApp.Models.Student
+
+@{
+    ViewData["Title"] = "Deauthorize Student";
+}
+
+<style>
+    :root {
+        --d-bg: #0d0202; /* Deep Obsidian Red */
+        --d-card: rgba(20, 10, 10, 0.8);
+        --d-danger: #ff4d4d;
+        --d-danger-glow: rgba(255, 77, 77, 0.3);
+        --d-border: rgba(255, 77, 77, 0.2);
+        --d-text: #f0f0f0;
+        --d-text-dim: #a0a0a0;
+    }
+
+    .d-delete-wrapper {
+        background: radial-gradient(circle at center, #2a0505 0%, var(--d-bg) 100%);
+        padding: 3.5rem 1.5rem;
+        border-radius: 24px;
+        color: var(--d-text);
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+        min-height: 85vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-warning-zone {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+        .d-warning-zone h1 {
+            font-size: 2.8rem;
+            font-weight: 900;
+            color: var(--d-danger);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-shadow: 0 0 15px var(--d-danger-glow);
+            margin: 0;
+        }
+
+        .d-warning-zone p {
+            color: var(--d-text-dim);
+            font-size: 1rem;
+            margin-top: 0.5rem;
+            letter-spacing: 1px;
+        }
+
+    .d-profile-summary {
+        background: var(--d-card);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid var(--d-border);
+        border-radius: 16px;
+        padding: 2.5rem;
+        width: 100%;
+        max-width: 550px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+        position: relative;
+    }
+
+        /* Subtle "Unauthorized" watermark */
+        .d-profile-summary::after {
+            content: "REMOVAL";
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+            font-size: 4rem;
+            font-weight: 900;
+            color: rgba(255, 77, 77, 0.03);
+            pointer-events: none;
+        }
+
+    .d-info-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+        .d-info-row:last-child {
+            border-bottom: none;
+        }
+
+    .d-label {
+        color: var(--d-danger);
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    .d-value {
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    .d-actions {
+        margin-top: 3.5rem;
+        text-align: center;
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .d-btn-confirm {
+        background: var(--d-danger);
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 1.2rem;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        box-shadow: 0 0 20px var(--d-danger-glow);
+        margin-bottom: 1.5rem;
+    }
+
+        .d-btn-confirm:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 40px var(--d-danger-glow);
+            filter: brightness(1.2);
+        }
+
+    .d-link-abort {
+        color: var(--d-text-dim);
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 600;
+        transition: 0.2s;
+        border-bottom: 1px solid transparent;
+    }
+
+        .d-link-abort:hover {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+</style>
+
+<div class="d-delete-wrapper">
+    <div class="d-warning-zone">
+        <h1>Deauthorize</h1>
+        <p>Confirming permanent removal of student personnel</p>
+    </div>
+
+    <div class="d-profile-summary">
+        <div class="d-info-row">
+            <span class="d-label">Full Name / Identity</span>
+            <span class="d-value">@Html.DisplayFor(model => model.FullName)</span>
+        </div>
+
+        <div class="d-info-row">
+            <span class="d-label">Registry Email</span>
+            <span class="d-value">@Html.DisplayFor(model => model.Email)</span>
+        </div>
+
+        <div class="d-info-row">
+            <span class="d-label">Contact Link</span>
+            <span class="d-value">@Html.DisplayFor(model => model.Phone)</span>
+        </div>
+
+        <div class="d-info-row">
+            <span class="d-label">Current Status</span>
+            <span class="d-value" style="color: var(--d-danger)">@Html.DisplayFor(model => model.Status)</span>
+        </div>
+
+        <div class="d-info-row">
+            <span class="d-label">Join Date</span>
+            <span class="d-value">@Html.DisplayFor(model => model.JoinDate)</span>
+        </div>
+
+        <div class="d-info-row">
+            <span class="d-label">System Timestamp</span>
+            <span class="d-value">@Html.DisplayFor(model => model.CreatedAt)</span>
+        </div>
+    </div>
+
+    <form asp-action="Delete" class="d-actions">
+        <input type="hidden" asp-for="StudentId" />
+        <button type="submit" class="d-btn-confirm">Confirm Deauthorization</button>
+        <br />
+        <a asp-action="Index" class="d-link-abort">Abort and Return to Registry</a>
+    </form>
+</div>

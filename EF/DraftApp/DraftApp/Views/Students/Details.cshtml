@@ -1,0 +1,197 @@
+﻿@model DraftApp.Models.Student
+
+@{
+    ViewData["Title"] = "Student Dossier";
+}
+
+<style>
+    :root {
+        --s-bg: #0d1117;
+        --s-glass: rgba(22, 27, 34, 0.7);
+        --s-accent: #58a6ff;
+        --s-accent-glow: rgba(88, 166, 255, 0.4);
+        --s-text: #c9d1d9;
+        --s-text-muted: #8b949e;
+        --s-border: rgba(48, 54, 61, 0.8);
+    }
+
+    .s-details-wrapper {
+        background: radial-gradient(circle at top right, #161b22, var(--s-bg));
+        padding: 3rem 2rem;
+        border-radius: 20px;
+        color: var(--s-text);
+        font-family: 'Inter', system-ui, sans-serif;
+        min-height: 85vh;
+    }
+
+    /* Dossier Header */
+    .s-dossier-header {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid var(--s-border);
+        padding-bottom: 2rem;
+    }
+
+    .s-avatar-circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--s-accent), #1f6feb);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #fff;
+        box-shadow: 0 0 20px var(--s-accent-glow);
+        border: 4px solid var(--s-bg);
+    }
+
+    .s-title-block h1 {
+        font-size: 2.5rem;
+        margin: 0;
+        font-weight: 800;
+        letter-spacing: -1px;
+    }
+
+    .s-status-badge {
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 50px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background: rgba(56, 189, 248, 0.1);
+        border: 1px solid var(--s-accent);
+        color: var(--s-accent);
+        margin-top: 0.5rem;
+    }
+
+    /* Information Grid */
+    .s-info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .s-data-card {
+        background: var(--s-glass);
+        backdrop-filter: blur(12px);
+        border: 1px solid var(--s-border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+        .s-data-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--s-accent);
+        }
+
+    .s-label {
+        display: block;
+        font-size: 0.7rem;
+        color: var(--s-text-muted);
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    .s-value {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    /* Actions */
+    .s-actions {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .s-btn {
+        padding: 0.8rem 2rem;
+        border-radius: 8px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: 0.3s;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+    }
+
+    .s-btn-edit {
+        background: var(--s-accent);
+        color: #0d1117 !important;
+        box-shadow: 0 4px 15px var(--s-accent-glow);
+    }
+
+        .s-btn-edit:hover {
+            filter: brightness(1.2);
+            transform: scale(1.05);
+        }
+
+    .s-btn-back {
+        background: transparent;
+        color: var(--s-text-muted) !important;
+        border: 1px solid var(--s-border);
+    }
+
+        .s-btn-back:hover {
+            color: #fff !important;
+            border-color: #fff;
+        }
+
+    @@media (max-width: 600px) {
+        .s-dossier-header {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+</style>
+
+<div class="s-details-wrapper">
+    <div class="s-dossier-header">
+        <div class="s-avatar-circle">
+            @Model.FullName.Substring(0, 1).ToUpper()
+        </div>
+        <div class="s-title-block">
+            <h1>@Html.DisplayFor(model => model.FullName)</h1>
+            <div class="s-status-badge">
+                ● @Html.DisplayFor(model => model.Status)
+            </div>
+        </div>
+    </div>
+
+    <div class="s-info-grid">
+        <div class="s-data-card">
+            <span class="s-label">Communication Channel</span>
+            <span class="s-value">@Html.DisplayFor(model => model.Email)</span>
+        </div>
+
+        <div class="s-data-card">
+            <span class="s-label">Encrypted Phone Line</span>
+            <span class="s-value">@Html.DisplayFor(model => model.Phone)</span>
+        </div>
+
+        <div class="s-data-card">
+            <span class="s-label">Enrollment Timestamp</span>
+            <span class="s-value">@Model.JoinDate.ToShortDateString()</span>
+        </div>
+
+        <div class="s-data-card">
+            <span class="s-label">System Creation Date</span>
+            <span class="s-value">@Html.DisplayFor(model => model.CreatedAt)</span>
+        </div>
+    </div>
+
+    <div class="s-actions">
+        <a asp-action="Edit" asp-route-id="@Model?.StudentId" class="s-btn s-btn-edit">Modify Record</a>
+        <a asp-action="Index" class="s-btn s-btn-back">Return to Personnel List</a>
+    </div>
+</div>

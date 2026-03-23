@@ -1,0 +1,174 @@
+﻿@model DraftApp.Models.Course
+
+@{
+    ViewData["Title"] = "Terminate Record";
+}
+
+<style>
+    :root {
+        --f-bg-color: #0b0f19;
+        --f-card-bg: rgba(17, 24, 39, 0.7);
+        --f-card-border: rgba(244, 63, 94, 0.2);
+        --f-text-primary: #f3f4f6;
+        --f-text-secondary: #9ca3af;
+        --f-danger: #f43f5e;
+        --f-danger-glow: rgba(244, 63, 94, 0.3);
+    }
+
+    .f-delete-wrapper {
+        background: radial-gradient(circle at center, #2d0a0a, var(--f-bg-color));
+        padding: 3rem 2rem;
+        border-radius: 16px;
+        color: var(--f-text-primary);
+        font-family: 'Inter', sans-serif;
+        min-height: 80vh;
+    }
+
+    .f-warning-header {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+        .f-warning-header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--f-danger);
+            text-shadow: 0 0 20px var(--f-danger-glow);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .f-warning-header p {
+            color: var(--f-text-secondary);
+            font-size: 1.1rem;
+        }
+
+    /* Glassmorphism Info Card */
+    .f-info-card {
+        background: var(--f-card-bg);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border: 1px solid var(--f-card-border);
+        border-radius: 12px;
+        padding: 2.5rem;
+        max-width: 650px;
+        margin: 0 auto;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+
+    .f-summary-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+        .f-summary-item:last-child {
+            border-bottom: none;
+        }
+
+    .f-label {
+        color: var(--f-text-secondary);
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .f-value {
+        font-weight: 500;
+        color: #fff;
+    }
+
+    /* Danger Actions */
+    .f-actions {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .f-btn-terminate {
+        background: var(--f-danger);
+        color: white;
+        padding: 1rem 3.5rem;
+        border-radius: 8px;
+        font-weight: 700;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 0 20px var(--f-danger-glow);
+        transition: all 0.3s ease;
+    }
+
+        .f-btn-terminate:hover {
+            background: #e11d48;
+            transform: scale(1.05);
+            box-shadow: 0 0 35px var(--f-danger-glow);
+        }
+
+    .f-link-abort {
+        color: var(--f-text-secondary);
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.2s;
+        border-bottom: 1px solid transparent;
+    }
+
+        .f-link-abort:hover {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+
+    .f-id-badge {
+        font-family: 'Courier New', monospace;
+        background: rgba(0,0,0,0.3);
+        padding: 4px 10px;
+        border-radius: 4px;
+        color: var(--f-danger);
+    }
+</style>
+
+<div class="f-delete-wrapper">
+    <div class="f-warning-header">
+        <h1>Critical Warning</h1>
+        <p>You are about to permanently decommission this entity from the central registry.</p>
+    </div>
+
+    <div class="f-info-card">
+        <div class="f-summary-item">
+            <span class="f-label">Entity Title</span>
+            <span class="f-value">@Html.DisplayFor(model => model.Title)</span>
+        </div>
+
+        <div class="f-summary-item">
+            <span class="f-label">Registry ID</span>
+            <span class="f-value f-id-badge">#@Model.CourseId</span>
+        </div>
+
+        <div class="f-summary-item">
+            <span class="f-label">Status</span>
+            <span class="f-value" style="color: @(Model.IsActive ? "#10b981" : "#9ca3af")">
+                @(Model.IsActive ? "ACTIVE NODE" : "INACTIVE")
+            </span>
+        </div>
+
+        <div class="f-summary-item">
+            <span class="f-label">Investment</span>
+            <span class="f-value">@Html.DisplayFor(model => model.Fee)</span>
+        </div>
+
+        <div class="f-summary-item">
+            <span class="f-label">Level</span>
+            <span class="f-value">@Html.DisplayFor(model => model.Level)</span>
+        </div>
+    </div>
+
+    <form asp-action="Delete" class="f-actions">
+        <input type="hidden" asp-for="CourseId" />
+        <button type="submit" class="f-btn-terminate">Confirm Termination</button>
+        <a asp-action="Index" class="f-link-abort">Abort Deletion and Return</a>
+    </form>
+</div>

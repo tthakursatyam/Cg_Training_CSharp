@@ -1,0 +1,191 @@
+﻿@model DraftApp.Models.Student
+
+@{
+    ViewData["Title"] = "Onboard Student";
+}
+
+<style>
+    :root {
+        --s-bg: #0a0c10;
+        --s-card: rgba(16, 20, 24, 0.85);
+        --s-accent: #79c0ff; /* Soft Blue Cyber Accent */
+        --s-accent-glow: rgba(121, 192, 255, 0.3);
+        --s-border: rgba(48, 54, 61, 0.8);
+        --s-text: #e6edf3;
+        --s-text-muted: #8b949e;
+        --s-success: #3fb950;
+    }
+
+    .s-onboarding-wrapper {
+        background: radial-gradient(circle at top right, #161b22, var(--s-bg));
+        padding: 3rem 1.5rem;
+        border-radius: 20px;
+        color: var(--s-text);
+        font-family: 'Inter', -apple-system, sans-serif;
+        min-height: 85vh;
+    }
+
+    .s-page-title {
+        margin-bottom: 2.5rem;
+    }
+
+        .s-page-title h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            background: linear-gradient(120deg, #fff, var(--s-accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .s-page-title p {
+            color: var(--s-text-muted);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 3px;
+            margin-top: 0.5rem;
+        }
+
+    .s-form-card {
+        background: var(--s-card);
+        backdrop-filter: blur(10px);
+        border: 1px solid var(--s-border);
+        border-radius: 12px;
+        padding: 3rem;
+        max-width: 600px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+
+    .s-input-group {
+        margin-bottom: 1.8rem;
+    }
+
+    .s-label {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--s-accent);
+        margin-bottom: 0.6rem;
+        text-transform: uppercase;
+    }
+
+    .s-control {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        border: 1px solid var(--s-border);
+        border-radius: 8px;
+        padding: 0.8rem 1rem;
+        color: #fff;
+        font-size: 1rem;
+        transition: all 0.25s ease;
+    }
+
+        .s-control:focus {
+            outline: none;
+            border-color: var(--s-accent);
+            box-shadow: 0 0 12px var(--s-accent-glow);
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+    .s-validation {
+        font-size: 0.8rem;
+        color: #ff7b72;
+        margin-top: 0.4rem;
+        display: block;
+    }
+
+    .s-btn-primary {
+        background: var(--s-accent);
+        color: #0d1117;
+        border: none;
+        padding: 1rem 2.5rem;
+        border-radius: 8px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+        .s-btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px var(--s-accent-glow);
+            filter: brightness(1.1);
+        }
+
+    .s-footer-actions {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .s-link-back {
+        color: var(--s-text-muted);
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: 0.2s;
+    }
+
+        .s-link-back:hover {
+            color: #fff;
+        }
+
+    /* Small Icon-like detail */
+    .s-status-indicator {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background: var(--s-success);
+        border-radius: 50%;
+        margin-right: 8px;
+        box-shadow: 0 0 8px var(--s-success);
+    }
+</style>
+
+<div class="s-onboarding-wrapper">
+    <div class="s-page-title">
+        <h1>Onboard Personnel</h1>
+        <p><span class="s-status-indicator"></span> Student Enrollment System</p>
+    </div>
+
+    <div class="s-form-card">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="s-validation"></div>
+
+            <div class="s-input-group">
+                <label asp-for="FullName" class="s-label">Identity / Full Name</label>
+                <input asp-for="FullName" class="s-control" placeholder="John Doe" />
+                <span asp-validation-for="FullName" class="s-validation"></span>
+            </div>
+
+            <div class="s-input-group">
+                <label asp-for="Email" class="s-label">Communication / Email</label>
+                <input asp-for="Email" class="s-control" placeholder="name@domain.com" />
+                <span asp-validation-for="Email" class="s-validation"></span>
+            </div>
+
+            <div class="s-input-group">
+                <label asp-for="Phone" class="s-label">Direct Contact / Phone</label>
+                <input asp-for="Phone" class="s-control" placeholder="+1 (555) 000-0000" />
+                <span asp-validation-for="Phone" class="s-validation"></span>
+            </div>
+
+            <div class="s-input-group">
+                <label asp-for="JoinDate" class="s-label">Enrollment Date</label>
+                <input asp-for="JoinDate" type="date" class="s-control" />
+                <span asp-validation-for="JoinDate" class="s-validation"></span>
+            </div>
+
+            <button type="submit" class="s-btn-primary">Register Entry</button>
+        </form>
+
+        <div class="s-footer-actions">
+            <a asp-action="Index" class="s-link-back">Return to Personnel List</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

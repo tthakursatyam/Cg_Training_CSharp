@@ -1,0 +1,198 @@
+﻿@model DraftApp.Models.Course
+
+@{
+    ViewData["Title"] = "Initialize New Course";
+}
+
+<style>
+    :root {
+        --f-bg-color: #0d1117;
+        --f-panel-bg: rgba(22, 27, 34, 0.8);
+        --f-border: rgba(48, 54, 61, 1);
+        --f-accent: #58a6ff;
+        --f-accent-glow: rgba(88, 166, 255, 0.2);
+        --f-text-main: #c9d1d9;
+        --f-text-dim: #8b949e;
+        --f-error: #f85149;
+    }
+
+    .f-create-container {
+        background: linear-gradient(145deg, #0d1117, #161b22);
+        padding: 4rem 2rem;
+        border-radius: 12px;
+        color: var(--f-text-main);
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        min-height: 85vh;
+    }
+
+    .f-header-section {
+        margin-bottom: 3rem;
+        border-left: 4px solid var(--f-accent);
+        padding-left: 1.5rem;
+    }
+
+        .f-header-section h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin: 0;
+            color: #fff;
+        }
+
+        .f-header-section p {
+            color: var(--f-text-dim);
+            margin: 0.5rem 0 0;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+        }
+
+    .f-form-panel {
+        background: var(--f-panel-bg);
+        border: 1px solid var(--f-border);
+        border-radius: 8px;
+        padding: 3rem;
+        max-width: 650px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        position: relative;
+        overflow: hidden;
+    }
+
+        /* Decorative Corner */
+        .f-form-panel::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-style: solid;
+            border-width: 0 40px 40px 0;
+            border-color: transparent var(--f-accent) transparent transparent;
+            opacity: 0.5;
+        }
+
+    .f-field-group {
+        margin-bottom: 2rem;
+    }
+
+    .f-label {
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: var(--f-accent);
+        text-transform: uppercase;
+        margin-bottom: 0.75rem;
+        letter-spacing: 1px;
+    }
+
+    .f-input {
+        width: 100%;
+        background: rgba(0,0,0,0.2);
+        border: 1px solid var(--f-border);
+        color: white;
+        padding: 1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: all 0.2s ease;
+    }
+
+        .f-input:focus {
+            outline: none;
+            border-color: var(--f-accent);
+            box-shadow: 0 0 0 3px var(--f-accent-glow);
+            background: rgba(0,0,0,0.4);
+        }
+
+    .f-validation-msg {
+        color: var(--f-error);
+        font-size: 0.8rem;
+        display: block;
+        margin-top: 0.5rem;
+    }
+
+    .f-action-row {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .f-btn-submit {
+        background: var(--f-accent);
+        color: #0d1117;
+        border: none;
+        padding: 1rem 3rem;
+        border-radius: 6px;
+        font-weight: 800;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+        .f-btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px var(--f-accent-glow);
+            filter: brightness(1.1);
+        }
+
+    .f-link-cancel {
+        color: var(--f-text-dim);
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 600;
+        transition: 0.2s;
+    }
+
+        .f-link-cancel:hover {
+            color: #fff;
+        }
+</style>
+
+<div class="f-create-container">
+    <div class="f-header-section">
+        <h1>New Deployment</h1>
+        <p>Registry Entry Mode / Course-Alpha-01</p>
+    </div>
+
+    <div class="f-form-panel">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="f-validation-msg"></div>
+
+            <div class="f-field-group">
+                <label asp-for="Title" class="f-label"></label>
+                <input asp-for="Title" class="f-input" placeholder="Enter formal course designation..." />
+                <span asp-validation-for="Title" class="f-validation-msg"></span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div class="f-field-group">
+                    <label asp-for="DurationDays" class="f-label">Term Length (Days)</label>
+                    <input asp-for="DurationDays" class="f-input" placeholder="30" />
+                    <span asp-validation-for="DurationDays" class="f-validation-msg"></span>
+                </div>
+
+                <div class="f-field-group">
+                    <label asp-for="Fee" class="f-label">Credit Value (Fee)</label>
+                    <input asp-for="Fee" class="f-input" placeholder="0.00" />
+                    <span asp-validation-for="Fee" class="f-validation-msg"></span>
+                </div>
+            </div>
+
+            <div class="f-field-group">
+                <label asp-for="Level" class="f-label">Skill Tier</label>
+                <input asp-for="Level" class="f-input" placeholder="e.g. Tier 1 - Foundational" />
+                <span asp-validation-for="Level" class="f-validation-msg"></span>
+            </div>
+
+            <div class="f-action-row">
+                <button type="submit" class="f-btn-submit">Initialize Entry</button>
+                <a asp-action="Index" class="f-link-cancel">Discard Data</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

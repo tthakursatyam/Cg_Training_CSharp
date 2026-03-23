@@ -1,0 +1,29 @@
+﻿@model OnetoManyEFMVC.Models.CollegeMaster
+
+<h2>Add College</h2>
+
+<form asp-action="Create">
+
+    <label>College Name</label>
+    <input asp-for="CollegeName" />
+    <br />
+
+    <label>City</label>
+    <input asp-for="City" />
+    <br />
+
+    <label>Hostel Name</label>
+    <input name="hostelName" />
+    <br />
+
+    <label>Payment Amount</label>
+    <input name="amount" />
+    <br />
+
+    <label>Payment Mode</label>
+    <input name="paymentMode" />
+    <br />
+
+    <button type="submit">Save</button>
+
+</form>

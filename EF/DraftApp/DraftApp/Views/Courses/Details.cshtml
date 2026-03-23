@@ -1,0 +1,207 @@
+﻿@model DraftApp.Models.Course
+
+@{
+    ViewData["Title"] = "Course Details";
+}
+
+<style>
+    /* Futuristic & Professional Theme Variables */
+    :root {
+        --f-bg-color: #0b0f19;
+        --f-card-bg: rgba(17, 24, 39, 0.7);
+        --f-card-border: rgba(56, 189, 248, 0.2);
+        --f-text-primary: #f3f4f6;
+        --f-text-secondary: #9ca3af;
+        --f-accent: #38bdf8;
+        --f-accent-glow: rgba(56, 189, 248, 0.4);
+        --f-success: #10b981;
+        --f-danger: #ef4444;
+    }
+
+    /* Container & Layout */
+    .f-details-wrapper {
+        background: radial-gradient(circle at top right, #1e1b4b, var(--f-bg-color));
+        padding: 3rem 2rem;
+        border-radius: 16px;
+        color: var(--f-text-primary);
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
+    }
+
+    .f-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid var(--f-card-border);
+        padding-bottom: 1rem;
+    }
+
+    .f-header h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 0;
+        background: linear-gradient(to right, #fff, var(--f-accent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: -0.05em;
+    }
+
+    /* Glassmorphism Card */
+    .f-card {
+        background: var(--f-card-bg);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid var(--f-card-border);
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .f-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 40px var(--f-accent-glow);
+    }
+
+    /* Data Grid */
+    .f-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+
+    .f-data-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .f-label {
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--f-text-secondary);
+        font-weight: 600;
+    }
+
+    .f-value {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: var(--f-text-primary);
+    }
+
+    .f-value.highlight {
+        color: var(--f-accent);
+        font-weight: 700;
+    }
+
+    /* Badges */
+    .f-badge {
+        padding: 0.35rem 1rem;
+        border-radius: 50px;
+        font-size: 0.875rem;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    .f-badge-active {
+        background: rgba(16, 185, 129, 0.1);
+        color: var(--f-success);
+        border: 1px solid var(--f-success);
+        box-shadow: 0 0 10px rgba(16, 185, 129, 0.2);
+    }
+
+    .f-badge-inactive {
+        background: rgba(239, 68, 68, 0.1);
+        color: var(--f-danger);
+        border: 1px solid var(--f-danger);
+    }
+
+    /* Buttons */
+    .f-actions {
+        margin-top: 2.5rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .f-btn {
+        padding: 0.75rem 2rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        text-align: center;
+        letter-spacing: 0.05em;
+    }
+
+    .f-btn-primary {
+        background: var(--f-accent);
+        color: #000 !important;
+        box-shadow: 0 0 15px var(--f-accent-glow);
+    }
+
+    .f-btn-primary:hover {
+        background: #0ea5e9;
+        box-shadow: 0 0 25px var(--f-accent-glow);
+        transform: scale(1.02);
+    }
+
+    .f-btn-secondary {
+        background: transparent;
+        color: var(--f-text-primary) !important;
+        border: 1px solid var(--f-text-secondary);
+    }
+
+    .f-btn-secondary:hover {
+        border-color: var(--f-text-primary);
+        background: rgba(255,255,255,0.05);
+    }
+</style>
+
+<div class="f-details-wrapper">
+    <div class="f-header">
+        <h1>@Html.DisplayFor(model => model.Title)</h1>
+        <div>
+            @if (Model.IsActive)
+            {
+                <span class="f-badge f-badge-active">● Active</span>
+            }
+            else
+            {
+                <span class="f-badge f-badge-inactive">○ Inactive</span>
+            }
+        </div>
+    </div>
+
+    <div class="f-card">
+        <div class="f-grid">
+            <div class="f-data-group">
+                <span class="f-label">@Html.DisplayNameFor(model => model.DurationDays)</span>
+                <span class="f-value">@Html.DisplayFor(model => model.DurationDays) Days</span>
+            </div>
+
+            <div class="f-data-group">
+                <span class="f-label">@Html.DisplayNameFor(model => model.Fee)</span>
+                <span class="f-value highlight">@Html.DisplayFor(model => model.Fee)</span>
+            </div>
+
+            <div class="f-data-group">
+                <span class="f-label">@Html.DisplayNameFor(model => model.Level)</span>
+                <span class="f-value">@Html.DisplayFor(model => model.Level)</span>
+            </div>
+
+            <div class="f-data-group">
+                <span class="f-label">@Html.DisplayNameFor(model => model.CreatedAt)</span>
+                <span class="f-value">@Html.DisplayFor(model => model.CreatedAt)</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="f-actions">
+        <a asp-action="Edit" asp-route-id="@Model?.CourseId" class="f-btn f-btn-primary">Edit Configuration</a>
+        <a asp-action="Index" class="f-btn f-btn-secondary">Return to Index</a>
+    </div>
+</div>

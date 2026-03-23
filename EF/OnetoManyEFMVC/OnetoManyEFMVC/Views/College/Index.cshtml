@@ -1,0 +1,25 @@
+﻿@model List<OnetoManyEFMVC.Models.CollegeMaster>
+
+<h2>College List</h2>
+
+<table border="1">
+	<tr>
+		<th>College</th>
+		<th>City</th>
+		<th>Hostel</th>
+		<th>Payment</th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>@item.CollegeName</td>
+			<td>@item.City</td>
+			<td>@item.Hostels.FirstOrDefault()?.HostelName</td>
+			<td>@item.Payments.FirstOrDefault()?.Amount</td>
+		</tr>
+	}
+
+</table>
+
+<a asp-action="Create">Add College</a>

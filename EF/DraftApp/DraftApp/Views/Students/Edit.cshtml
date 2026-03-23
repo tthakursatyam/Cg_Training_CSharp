@@ -1,0 +1,229 @@
+﻿@model DraftApp.Models.Student
+
+@{
+    ViewData["Title"] = "Update Personnel Profile";
+}
+
+<style>
+    :root {
+        --e-bg: #0b0e14;
+        --e-panel: rgba(22, 27, 34, 0.85);
+        --e-accent: #79c0ff;
+        --e-accent-glow: rgba(121, 192, 255, 0.3);
+        --e-border: rgba(48, 54, 61, 1);
+        --e-text: #c9d1d9;
+        --e-text-dim: #8b949e;
+        --e-error: #ff7b72;
+    }
+
+    .e-edit-container {
+        background: radial-gradient(circle at bottom left, #161b22, var(--e-bg));
+        padding: 3.5rem 2rem;
+        border-radius: 16px;
+        color: var(--e-text);
+        font-family: 'Inter', -apple-system, sans-serif;
+        min-height: 85vh;
+    }
+
+    .e-header-strip {
+        margin-bottom: 3rem;
+        border-bottom: 1px solid var(--e-border);
+        padding-bottom: 1.5rem;
+    }
+
+        .e-header-strip h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin: 0;
+            color: #fff;
+            letter-spacing: -0.5px;
+        }
+
+        .e-header-strip span {
+            color: var(--e-accent);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+    .e-form-card {
+        background: var(--e-panel);
+        backdrop-filter: blur(15px);
+        border: 1px solid var(--e-border);
+        border-radius: 12px;
+        padding: 3rem;
+        max-width: 750px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+
+    .e-section-title {
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: var(--e-text-dim);
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+        .e-section-title::after {
+            content: "";
+            height: 1px;
+            flex-grow: 1;
+            background: var(--e-border);
+        }
+
+    .e-input-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .e-field {
+        margin-bottom: 1.5rem;
+    }
+
+    .e-label {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--e-text);
+        margin-bottom: 0.5rem;
+    }
+
+    .e-control {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        border: 1px solid var(--e-border);
+        border-radius: 6px;
+        padding: 0.75rem 1rem;
+        color: #fff;
+        font-size: 0.95rem;
+        transition: all 0.2s ease;
+    }
+
+        .e-control:focus {
+            outline: none;
+            border-color: var(--e-accent);
+            box-shadow: 0 0 10px var(--e-accent-glow);
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .e-control[readonly] {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background: transparent;
+        }
+
+    .e-actions {
+        margin-top: 2.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .e-btn-save {
+        background: var(--e-accent);
+        color: #0d1117;
+        border: none;
+        padding: 0.9rem 2.5rem;
+        border-radius: 6px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+        .e-btn-save:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px var(--e-accent-glow);
+            filter: brightness(1.1);
+        }
+
+    .e-link-back {
+        color: var(--e-text-dim);
+        text-decoration: none;
+        font-size: 0.85rem;
+        transition: 0.2s;
+    }
+
+        .e-link-back:hover {
+            color: #fff;
+        }
+
+    .e-validation {
+        color: var(--e-error);
+        font-size: 0.75rem;
+        margin-top: 0.3rem;
+    }
+</style>
+
+<div class="e-edit-container">
+    <div class="e-header-strip">
+        <span>Secure Registry Update</span>
+        <h1>Edit Personnel Profile</h1>
+    </div>
+
+    <div class="e-form-card">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="e-validation" style="margin-bottom: 1.5rem;"></div>
+            <input type="hidden" asp-for="StudentId" />
+
+            <div class="e-section-title">Core Identity</div>
+            <div class="e-field">
+                <label asp-for="FullName" class="e-label">Full Name</label>
+                <input asp-for="FullName" class="e-control" />
+                <span asp-validation-for="FullName" class="e-validation"></span>
+            </div>
+
+            <div class="e-section-title">Contact & Status</div>
+            <div class="e-input-row">
+                <div class="e-field">
+                    <label asp-for="Email" class="e-label"></label>
+                    <input asp-for="Email" class="e-control" />
+                    <span asp-validation-for="Email" class="e-validation"></span>
+                </div>
+                <div class="e-field">
+                    <label asp-for="Phone" class="e-label"></label>
+                    <input asp-for="Phone" class="e-control" />
+                    <span asp-validation-for="Phone" class="e-validation"></span>
+                </div>
+            </div>
+
+            <div class="e-field">
+                <label asp-for="Status" class="e-label"></label>
+                <input asp-for="Status" class="e-control" />
+                <span asp-validation-for="Status" class="e-validation"></span>
+            </div>
+
+            <div class="e-section-title">System Metadata</div>
+            <div class="e-input-row">
+                <div class="e-field">
+                    <label asp-for="JoinDate" class="e-label"></label>
+                    <input asp-for="JoinDate" class="e-control" />
+                    <span asp-validation-for="JoinDate" class="e-validation"></span>
+                </div>
+                <div class="e-field">
+                    <label asp-for="CreatedAt" class="e-label">Created On (Read-Only)</label>
+                    <input asp-for="CreatedAt" class="e-control" readonly />
+                    <span asp-validation-for="CreatedAt" class="e-validation"></span>
+                </div>
+            </div>
+
+            <div class="e-actions">
+                <button type="submit" class="e-btn-save">Commit Changes</button>
+                <a asp-action="Index" class="e-link-back">Cancel Modification</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
